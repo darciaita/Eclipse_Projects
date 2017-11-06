@@ -1,0 +1,22 @@
+1506371100585	Delete element
+1506371130229	Delete element
+1506383789343	Delete element
+1506383800556	Delete element
+1506385128471	Move 'mysql-connector-java-5.1.44-bin.jar' to 'lib'
+1506385134743	Delete element
+1506456388001	Delete element
+1506456453259	Delete element
+1506456457318	Delete element
+1506533393019	Delete element
+1506611583679	Delete element
+1506628091316	Delete element
+1506637787080	Delete element
+1506650329212	Rename type 'DB'
+1506651597123	Rename type 'DBUtiil'
+1506653070318	Delete element
+1506658227498	Convert local variable 'sc' to field
+1506660795385	Move compilation unit
+1506660802073	Move compilation unit
+1506660837802	Move compilation unit
+1506660863477	Delete element
+1506660878193	Rename type 'UserBean'

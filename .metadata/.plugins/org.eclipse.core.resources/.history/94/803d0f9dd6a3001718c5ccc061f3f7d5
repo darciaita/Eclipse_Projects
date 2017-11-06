@@ -1,0 +1,36 @@
+package f17g310;
+
+import java.sql.*;
+
+public class Access {
+	private static String driver="com.mysql.jdbc.Driver";
+	private static String url="jdbc:mysql://131.193.209.54/velebitserver1";
+	private static String user ="f17x321"; // user name
+	private static String pass ="f17x321TS"; // password
+public static void main(String[] args){
+	try {
+		Class.forName(driver);
+		DriverManager.getConnection(url, user, pass);
+		System.out.println("it worked");
+		}
+		// catch class driver exception
+		// catch connection exception
+
+		catch (ClassNotFoundException e) {
+		System.err.println(
+		"Could not load JDBC driver");
+		System.out.println("Exception: " + e);
+		e.printStackTrace();
+		}
+
+		catch (SQLException ex) {
+		System.err.println("SQLException information");
+		while(ex!=null){
+		System.err.println ("Error msg: " + ex.getMessage());
+		System.err.println ("SQLSTATE: " + ex.getSQLState());
+		System.err.println ("Error code: " + ex.getErrorCode());
+		ex.printStackTrace();
+		ex = ex.getNextException(); }
+		}
+}		
+}

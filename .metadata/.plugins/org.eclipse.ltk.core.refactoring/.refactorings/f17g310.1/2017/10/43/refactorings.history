@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;main.css&apos; to &apos;f17g310.1&apos;" description="Move &apos;main.css&apos; to &apos;f17g310.1&apos;" destination="/f17g310.1" element1="/f17g3101/WebContent/main.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1508798929194" updateReferences="true"/>
+</session>

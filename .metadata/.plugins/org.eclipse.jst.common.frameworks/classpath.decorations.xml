@@ -1,0 +1,7 @@
+<classpath>
+  <container id="ttodor!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/ttodor/ImportedClasses">
+      <source-attachment-path>/ttodor/src/conroller/model</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

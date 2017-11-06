@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<h:head>
+<title>Hello World - Input Form</title>
+</h:head>
+
+<h: body>	
+	<h: form>
+		<h: inputText id="name" value="{theUserName}"
+		a:placeholder="What's your name?" />
+		<h: commandButton value="Submit" action="myresponse" />
+		</h: form>
+		</h: body>
+	</html>
