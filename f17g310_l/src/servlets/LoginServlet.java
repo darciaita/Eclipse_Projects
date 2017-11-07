@@ -3,6 +3,9 @@ package servlets;
 
 import database.DatabaseConnection;
 import java.io.IOException;
+import java.io.Serializable;
+
+import javax.annotation.ManagedBean;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,15 +13,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+@ManagedBean
 @WebServlet(name = "LoginServlet", urlPatterns = {"/Login"})
-public class LoginServlet extends HttpServlet {
+
+public class LoginServlet extends HttpServlet implements Serializable {
     /**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private final String userID="f17x321";
-    private final String password="f17x321TS";
-
+	private String userID;
+    private String password;
+    private String url="jdbc:mysql://131.193.209.54:3306/World";
+    
     /**
      * Handles the HTTP <code>POST</code> method.
      *
@@ -49,5 +55,36 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("error.jsp");
         }
     }
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public LoginServlet(String userID, String password, String url) {
+		super();
+		this.userID = userID;
+		this.password = password;
+		this.url = url;
+	}
 
 }
