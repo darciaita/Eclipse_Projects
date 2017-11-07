@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="rose">
-        <property name="context-root" value="rose"/>
-        <property name="java-output-path" value="/rose/build/classes"/>
-    </wb-module>
-</project-modules>

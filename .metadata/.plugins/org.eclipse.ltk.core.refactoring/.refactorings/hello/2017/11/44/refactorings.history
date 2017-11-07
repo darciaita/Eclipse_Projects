@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;hello/WebContent/myresponse.html&apos; to &apos;myresponse.xhtml&apos;" description="Rename resource &apos;myresponse.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/myresponse.html" name="myresponse.xhtml" stamp="1509830428282" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;hello/WebContent/hello-world.html&apos; to &apos;hello-world.xhtml&apos;" description="Rename resource &apos;hello-world.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/hello-world.html" name="hello-world.xhtml" stamp="1509830665344" updateReferences="true"/>
-</session>

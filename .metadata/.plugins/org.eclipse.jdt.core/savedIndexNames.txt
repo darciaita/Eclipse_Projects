@@ -1,7 +1,0 @@
-INDEX VERSION 1.130+/Users/darciaita/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-2710005549.index
-3844765422.index
-3070904283.index
-292406719.index
-3225294266.index
-1053037600.index

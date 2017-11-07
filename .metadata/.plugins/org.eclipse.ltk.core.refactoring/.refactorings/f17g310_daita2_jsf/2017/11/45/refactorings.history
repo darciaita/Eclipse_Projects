@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;f17g310_daita2_jsf/WebContent/home.jsp&apos; to &apos;home.xhtml&apos;" description="Rename resource &apos;home.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/home.jsp" name="home.xhtml" stamp="1509891387603" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;f17g310_daita2_jsf/WebContent/NewFile.html&apos; to &apos;viewdetails.xhtml&apos;" description="Rename resource &apos;NewFile.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/NewFile.html" name="viewdetails.xhtml" stamp="1509892725835" updateReferences="true"/>
-</session>
